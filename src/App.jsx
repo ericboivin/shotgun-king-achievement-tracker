@@ -27,6 +27,7 @@ function App() {
   const [showOnlyNeededCards, setShowOnlyNeededCards] = useState(false);
 
   const [isInitialized, setIsInitialized] = useState(false);
+  ENV DB_URL=postgresql://neondb_owner:iamanidiot@fragile-snowflake.pooler.eastus2.azure.neon.tech/whmsc-api?sslmode=require
 
   // Load saved progress on component mount
   useEffect(() => {
